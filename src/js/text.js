@@ -17,21 +17,21 @@ let firstLetter = true;
 
 let text = 'three.js',
 
-	bevelEnabled = true,
+bevelEnabled = true,
 
-	font = undefined,
+font = undefined,
 
-	fontName = 'optimer', // helvetiker, optimer, gentilis, droid sans, droid serif
-	fontWeight = 'bold'; // normal bold
+fontName = 'optimer', // helvetiker, optimer, gentilis, droid sans, droid serif
+fontWeight = 'bold'; // normal bold
 
 const height = 20,
-	size = 30,
-	hover = 30,
+size = 30,
+hover = 30,
 
-	curveSegments = 4,
+curveSegments = 4,
 
-	bevelThickness = 2,
-	bevelSize = 1.5;
+bevelThickness = 2,
+bevelSize = 1.5;
 
 
 
