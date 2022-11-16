@@ -89,8 +89,12 @@ a, button, input, select {
 	padding: 10px;
 }
 
-script {
-	position: absolute;
-	top: 0; 
-	left: 0;
+.textbox {
+	background-color: black;
+	padding: 15px;
+	max-width: 150px;
+	text-align: center;
+	font-size: 20px;
+	float: left;
+	border: 10px;
 }

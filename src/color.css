@@ -1,0 +1,38 @@
+:root{
+    --custom-color-primary: #155263; 
+    --custom-color-secondary: #ff6f3c; 
+    --custom-color-tertiary: #ff9a3c; 
+    --custom-color-quaternary: #ffc93c; 
+}
+
+.custom-color-primary{
+    color: var(--custom-color-primary);
+}
+
+.custom-bg-primary{
+    color: var(--custom-color-primary);
+}
+
+.custom-color-secondary{
+    color: var(--custom-color-secondary);
+}
+
+.custom-bg-secondary{
+    color: var(--custom-color-secondary);
+}
+
+.custom-color-tertiary{
+    color: var(--custom-color-tertiary);
+}
+
+.custom-bg-tertiary{
+    color: var(--custom-color-tertiary);
+}
+
+.custom-color-quaternary{
+    color: var(--custom-color-quaternary);
+}
+
+.custom-bg-quaternary{
+    color: var(--custom-color-quaternary);
+}
