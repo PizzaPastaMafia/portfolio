@@ -22,15 +22,7 @@ function draw() {
 
 }
 
-gsap.fromTo(".class", {
-    x: 100, //normal value
-    y: function(index, target, targets) { //function-based value
-        return index * 50; 
-    }
-},
-{
-    x: 50,
-    y: 0,
-    duration: 1
-});
-
+$(".textbox").animate({
+    left: '+=150',
+    top: '+=150'
+}, 1000);

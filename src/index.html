@@ -10,12 +10,19 @@
 	</head>
 	<body>
 		<div class="divGroup">
-			<div class="textbox">About me</div>
-			<div class="textbox">Github</div>
-			<div class="textbox">140 BPM</div>
-			<div class="textbox">Atlas Blanc</div>
+			<div class="textbox1">About me</div>
+			<div class="textbox2">Github</div>
+			<div class="textbox3">140 BPM</div>
+			<div class="textbox4">Atlas Blanc</div>
 
 		</div>
+		<script>
+			var txtbx = document.getElementsByClassName("textbox");
+			txtbx.animate({
+				left: '+=150',
+				top: '+=150'
+			}, 1000);
+		</script>
 		
 		
 		<!--<canvas id="paint"></canvas>-->
@@ -35,8 +42,9 @@
 
 		<!--<script type="module" src="js/text.js" ></script>-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
-		<script src="js/line.js" ></script>
-		<script src="js/photos.js" ></script>
+		<!--<script src="js/line.js" ></script>
+			<script src="js/photos.js" ></script>-->
+			<script src="js/animation.js" ></script>
 
 
 
